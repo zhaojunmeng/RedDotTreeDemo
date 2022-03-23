@@ -11,6 +11,7 @@
 
 * 搭了一个极简的GUI演示demo。可以直观的看到红点系统运行时的样子，也方便自己修改demo代码来更好的理解系统的运行。
 * 基于上述的demo，部署了一个可体验的Web版本，这样读者可以免于下载引擎，就可以先看到demo运行时的样子。
+  * 可体验的web版demo在此: <https://zhaojunmeng.github.io/RedDotTreeDemo/web-mobile/index.html>
 * 用一套单元测试用例，保障了红点树的逻辑实现正确。（之前也看到过有人问，游戏开发中，写不写单元测试，怎么写。这个demo就算是一个在游戏开发中，运用单元测试保证逻辑正确性的一个例子吧）
 
 本demo使用的引擎是CocosCreator，版本是3.4.2。
@@ -163,6 +164,13 @@ export class ListItemMail extends Component {
 
 接口的使用介绍完毕，具体每个接口的详细细节，都在注释里，可以去这里查看：
 [RedDotTree.ts](RedDotDemoCocos/assets/scripts/thirdParty/redDotTree/RedDotTree.ts)
+  
+### 可体验web版demo
+
+可体验的web版demo在此: <https://zhaojunmeng.github.io/RedDotTreeDemo/web-mobile/index.html>
+
+* 左下角是一个“逻辑或”红点，点击左下角UI按钮，弹出一个子界面，点击掉全部的子界面红点之后，左下角入口UI红点才回消失
+* 右下角，就是我们demo中，一直讨论的“未读邮件”红点示例了
 
 ### 可以改进的点
 
