@@ -34,10 +34,10 @@
 
 下图是我用PlantUML画的一个脑图，展示了逻辑上的红点关系。
 
-![Alt text](/Docs/Pic/RedDot_MindMap.png "")
+![Alt text](/docs/Pic/RedDot_MindMap.png "")
 
 这副灵魂配图是demo中，关于MailButton红点和邮件列表红点的展示。
-![Alt text](/Docs/Pic/RedDot_DemoUI.png "")
+![Alt text](/docs/Pic/RedDot_DemoUI.png "")
 
 ### Don't
 
