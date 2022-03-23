@@ -71,9 +71,9 @@
 讲完逻辑抽象，代码实现就直接贴链接了。
 红点树的逻辑实现，就在下面的两个类中：
 
-[RedDotTree.ts](RedDotDemoCocos/assets/scripts/thirdParty/redDotTree/RedDotTree.ts) : 红点树对外接口
+[RedDotTree.ts](https://github.com/zhaojunmeng/RedDotTreeDemo/blob/main/RedDotDemoCocos/assets/scripts/thirdParty/redDotTree/RedDotTree.ts) : 红点树对外接口
 
-[RedDotTreeNode.ts](RedDotDemoCocos/assets/scripts/thirdParty/redDotTree/RedDotTreeNode.ts.ts) : 红点树节点的逻辑实现
+[RedDotTreeNode.ts](https://github.com/zhaojunmeng/RedDotTreeDemo/blob/main/RedDotDemoCocos/assets/scripts/thirdParty/redDotTree/RedDotTreeNode.ts) : 红点树节点的逻辑实现
 
 ### 问：把红点树用起来，总共分几步？
 
@@ -163,7 +163,7 @@ export class ListItemMail extends Component {
 这个时候，ListItemMail.onRedNumChanged()就可以收到回调了。
 
 接口的使用介绍完毕，具体每个接口的详细细节，都在注释里，可以去这里查看：
-[RedDotTree.ts](RedDotDemoCocos/assets/scripts/thirdParty/redDotTree/RedDotTree.ts)
+[RedDotTree.ts](https://github.com/zhaojunmeng/RedDotTreeDemo/blob/main/RedDotDemoCocos/assets/scripts/thirdParty/redDotTree/RedDotTree.ts)
   
 ### 可体验web版demo
 
@@ -283,7 +283,11 @@ yarn : 无法加载文件 C:\Users\xxx\AppData\Roaming\npm\yarn.ps1，因为在�
   * 执行：set-ExecutionPolicy RemoteSigned
   * 再次执行：get-ExecutionPolicy，显示RemoteSigned，这样就OK了
 
-#### 单元测试命名规则
+#### 单元测试代码
+
+单元测试代码在RedDotTreeNode.test.ts中，感兴趣的读者可以阅读代码：
+
+<https://github.com/zhaojunmeng/RedDotTreeDemo/blob/main/RedDotDemoCocos/unittests/redDotTree/RedDotTreeNode.test.ts>
 
 jest是通过文件名，来判断一个代码文件是否是单元测试的测试代码的。
 以.test.ts结尾的文件会被识别为单元测试代码。
